@@ -1,0 +1,16 @@
+package com.display.picwall;
+
+import java.io.File;
+import java.io.FileInputStream;
+
+public class Picwall {
+	String dir = "L:\\Users\\hunter\\workspace\\picWall\\img";
+	try{
+		File file = new File(dir);
+		FileInputStream fi = new FileInputStream(file);
+		String [] fileList = file.list();
+	}catch(Exception e){
+		e.printStackTrace();
+	}
+	
+}

@@ -1,0 +1,9 @@
+package com.display.picwall;
+
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+public class picwall {
+	String dir = "L:\Users\hunter\workspace\picWall\img";
+	FileInputStream fi = new FileInputStream(null);
+}

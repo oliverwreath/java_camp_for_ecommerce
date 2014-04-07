@@ -1,0 +1,13 @@
+<%@ page errorPage ="error.jsp" %>
+<a>aaaa</a>
+<b>bbb</b>
+<% 
+	int a = 3;
+	int b = 3;
+	if( a == b ){
+%>
+	<p>a = b</p>
+<% 
+	}
+	int i = 3/ 0;
+%>

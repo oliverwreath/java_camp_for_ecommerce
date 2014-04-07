@@ -1,0 +1,7 @@
+package com.display.picwall;
+
+import java.io.InputStream;
+
+public class picwall {
+	InputStream in = new InputStream();
+}

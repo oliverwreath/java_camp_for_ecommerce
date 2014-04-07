@@ -1,0 +1,5 @@
+package com.struts.test.action;
+
+public class FirstAction {
+	
+}

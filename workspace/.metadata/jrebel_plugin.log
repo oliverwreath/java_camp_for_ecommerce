@@ -1,0 +1,44 @@
+2014-04-03 19:58:29.574 [Worker-1] DEBUG AgentProvider - setInitializationData. isBetafalse; location jrebel/
+2014-04-03 19:58:29.578 [Worker-1] DEBUG AgentProvider - setInitializationData. isBetatrue; location jr6/jrebel/
+2014-04-03 19:58:29.596 [Worker-1] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-04-03 19:58:29.747 [Worker-1] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:50617/jrebel/notifications
+2014-04-03 19:58:29.762 [Worker-1] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\oliverwreath\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Green\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.5.2.RELEASE-201403191032\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-03 19:58:29.766 [Worker-1] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@66e28212
+2014-04-03 19:58:30.027 [Worker-1] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@66e28212 stopped with exit code 0
+2014-04-03 19:58:30.034 [Thread-24] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\oliverwreath\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Green\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.5.2.RELEASE-201403191032\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-03 19:58:30.037 [Thread-24] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@1cd182f8
+2014-04-03 19:58:30.267 [Thread-24] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@1cd182f8 stopped with exit code 0
+2014-04-03 20:16:06.242 [Worker-7] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Hello
+2014-04-03 20:16:06.242 [Worker-7] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/hello/src/com/hello/Hello.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.hello.Hello
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=hello
+2014-04-03 20:17:33.405 [Worker-7] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Hello_World
+2014-04-03 20:17:33.405 [Worker-7] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Hello_World/src/Hello_World.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=Hello_World
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Hello_World
+2014-04-03 20:17:53.853 [Worker-6] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for Hello
+2014-04-03 20:17:53.853 [Worker-6] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/hello/src/com/hello/Hello.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.hello.Hello
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=hello
+2014-04-03 20:18:09.172 [Worker-9] DEBUG RebelArgsFixingLaunchListener - ILaunchConfiguration parameters for CatchImage
+2014-04-03 20:18:09.172 [Worker-9] DEBUG RebelArgsFixingLaunchListener - 
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_PATHS=[/Utility/src/com/craw/CatchImage.java]
+entry: org.eclipse.debug.core.MAPPED_RESOURCE_TYPES=[1]
+entry: org.eclipse.jdt.launching.MAIN_TYPE=com.craw.CatchImage
+entry: org.eclipse.jdt.launching.PROJECT_ATTR=Utility
+2014-04-03 20:19:09.092 [Worker-1] DEBUG AgentProvider - setInitializationData. isBetafalse; location jrebel/
+2014-04-03 20:19:09.095 [Worker-1] DEBUG AgentProvider - setInitializationData. isBetatrue; location jr6/jrebel/
+2014-04-03 20:19:09.108 [Worker-1] DEBUG HttpNotifications - Starting JRebel Notification server on port 0
+2014-04-03 20:19:09.258 [Worker-1] DEBUG HttpNotifications - Listening to JRebel notifications at http://127.0.0.1:51481/jrebel/notifications
+2014-04-03 20:19:09.271 [Worker-1] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\oliverwreath\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Green\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.5.2.RELEASE-201403191032\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-03 20:19:09.273 [Worker-1] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@6a8e5c4
+2014-04-03 20:19:09.540 [Worker-1] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@6a8e5c4 stopped with exit code 0
+2014-04-03 20:19:09.550 [Thread-25] DEBUG o.z.exec.ProcessExecutor - Executing [C:\Program Files\Java\jre8\bin\java.exe, -Drebel.log=false, -Drebel.log.stdout=false, -Drebel.env.ide=Eclipse, -Drebel.properties=C:\Users\oliverwreath\.jrebel\jrebel.properties, -Drebel.license_server.legacy=false, -cp, C:\Green\eclipse\plugins\org.zeroturnaround.eclipse.embedder_5.5.2.RELEASE-201403191032\jrebel\jrebel.jar, com.zeroturnaround.javarebel.CLILicensingAPIImpl, getCurrentLicense, ]...
+2014-04-03 20:19:09.555 [Thread-25] DEBUG o.z.exec.ProcessExecutor - Started java.lang.ProcessImpl@67f056f6
+2014-04-03 20:19:10.177 [Thread-25] DEBUG o.z.exec.WaitForProcess - java.lang.ProcessImpl@67f056f6 stopped with exit code 0

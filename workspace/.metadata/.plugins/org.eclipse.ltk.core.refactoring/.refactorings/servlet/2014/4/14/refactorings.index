@@ -1,0 +1,26 @@
+1396555108766	Delete element
+1396669357494	Rename resource 'logiun'
+1396669922822	Encapsulate field 'userName'
+1396669933161	Encapsulate field 'passWord'
+1396670082175	Copy compilation unit
+1396670092472	Delete element
+1396670165064	Rename package 'com.login.user'
+1396676771162	Rename resource 'loginOK.jsp'
+1396683800027	Delete element
+1396683830631	Move compilation unit
+1396685012442	Copy compilation unit
+1396685040838	Delete element
+1396685289967	Rename package 'com.login'
+1396687108159	Move package
+1396687140859	Move 1 resources to 'WEB-INF'
+1396687152359	Move 1 resources to 'lib'
+1396687191491	Move 1 resources to 'controller'
+1396687193956	Move file
+1396687224012	Copy compilation unit
+1396687232646	Delete elements
+1396690064924	Delete element
+1396691678681	Delete element
+1396691686249	Rename compilation unit 'LoginServlet.java'
+1396696160670	Copy files
+1396696196751	Rename resource 'login'
+1396707529489	Copy file

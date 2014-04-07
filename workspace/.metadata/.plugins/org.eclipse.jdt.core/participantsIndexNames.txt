@@ -1,0 +1,15 @@
+INDEX VERSION 1.126
+C:\Users\oliverwreath\Documents\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\216275651.index
+\servlet\src
+C:\Users\oliverwreath\Documents\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1136576423.index
+\servlet\src
+C:\Users\oliverwreath\Documents\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3166069915.index
+\servlet\src
+C:\Users\oliverwreath\Documents\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\800378576.index
+\servlet\src
+C:\Users\oliverwreath\Documents\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2604081739.index
+\testStruts\src
+C:\Users\oliverwreath\Documents\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4085750767.index
+\testStruts\src
+C:\Users\oliverwreath\Documents\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3608767778.index
+\testStruts2\src

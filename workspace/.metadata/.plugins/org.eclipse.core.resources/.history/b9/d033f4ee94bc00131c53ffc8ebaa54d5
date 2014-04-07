@@ -1,0 +1,38 @@
+package com.login;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class LoginServlet
+ */
+@WebServlet("/LoginServlet")
+public class LoginServlet extends HttpServlet {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String uname = request.getParameter("uname");
+		String pwd = request.getParameter("pwd");
+		uname = uname.trim();
+		pwd = pwd.trim();
+		
+		if("xiaogao".equals(uname) && "123".equals(pwd)){
+			//登录成功
+			User user = new User(uname, pwd);
+			request.getSession.setAttribute("user", user);
+			
+			//转发或重定向
+			request.getResponseDispatcher("login_OK.jsp").forward(request, response);
+			return; 
+			
+		}else{
+			//登录失败
+			request.setAttribute("loginError", "用户名或者密码错误！"+uname+"|"+pwd);
+			pageContext.forward("login.jsp");
+			return;
+		}
+	}
+
+}

@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" import="com.login.User"
+%>
+<%
+	String uname = request.getParameter("uname").trim();
+	String pwd = request.getParameter("pwd").trim();
+	
+	if( "xiaogao".equals(uname) && "123".equals(pwd) ){
+		User user = new User(uname,pwd);
+		session.setAtttribute("user", user);
+		
+		pageContext.forward("loginOK.jsp");
+		return; 
+	}else{
+		//登录失败
+		request.setAttribute("loginError", "用户名或者密码错误！");
+		pageContext.forward(“login.jsp”);
+		return;
+	}
+%>
