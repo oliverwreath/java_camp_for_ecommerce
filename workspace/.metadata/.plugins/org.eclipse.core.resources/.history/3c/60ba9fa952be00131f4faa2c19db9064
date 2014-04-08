@@ -1,0 +1,27 @@
+package com.test;
+
+import java.sql.Date;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.service.ServiceRegistry;
+
+import com.po.User;
+
+public class Test1 {
+	public static void main(String[] args){
+	    // A SessionFactory is set up once for an application
+	    SessionFactory sessionFactory = new Configuration()
+	            .configure() // configures settings from hibernate.cfg.xml
+	            .buildSessionFactory();
+	    
+		Session session = sessionFactory.openSession();
+		
+		User u = new User("aa", new Date(System.currentTimeMillis()));
+		
+		session.save(u);
+		session.close();
+	}
+}

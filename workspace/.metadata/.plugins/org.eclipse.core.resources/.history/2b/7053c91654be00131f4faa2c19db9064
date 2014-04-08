@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-configuration
+        xmlns="http://www.hibernate.org/xsd/hibernate-configuration"
+        xsi:schemaLocation="http://www.hibernate.org/xsd/hibernate-configuration hibernate-configuration-4.0.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        
+  <session-factory>
+    <!-- Database connection settings -->
+    <property name="connection.driver_class">org.mysql.jdbc.Driver</property>
+    <property name="connection.url">jdbc:mysql://localhost:3306/hib</property>
+    <property name="connection.username">root</property>
+    <property name="connection.password">cccef373</property>
+
+    <!-- JDBC connection pool (use the built-in) -->
+    <property name="connection.pool_size">1</property>
+
+    <!-- SQL dialect -->
+    <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+
+    <!-- Disable the second-level cache  -->
+    <property name="cache.provider_class">org.hibernate.cache.internal.NoCacheProvider</property>
+
+    <!-- Echo all executed SQL to stdout -->
+    <property name="show_sql">true</property>
+
+    <!-- Drop and re-create the database schema on startup -->
+    <property name="hbm2ddl.auto">update</property>
+	<mapping package="com.po"/>  
+  </session-factory>
+</hibernate-configuration>

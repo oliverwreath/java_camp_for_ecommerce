@@ -1,0 +1,36 @@
+package com.hibernate.model;
+
+import java.sql.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "tbl_Ruku_Detail")
+public class Sales_Detail {
+	@Id @GeneratedValue
+	@Column(name = "sellID")
+	private String sellID; 
+	@Column(name = "pzs")
+	private int pzs; 
+	@Column(name = "je")
+	private int je;
+	@Column(name = "ysjl")
+	private String ysjl;
+	@Column(name = "khName")
+	private String khName;
+	@Column(name = "xsDate")
+	private Date xsDate;
+	@Column(name = "czy")
+	private String czy;
+	@Column(name = "jsr")
+	private String jsr;
+	@Column(name = "jsfs")
+	private String jsfs;
+	
+	public Sales_Detail(){}
+
+}

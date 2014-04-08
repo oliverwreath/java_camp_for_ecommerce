@@ -1,0 +1,15 @@
+127.0.0.1 - - [08/Apr/2014:16:59:21 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/Apr/2014:16:59:22 +0800] "GET /testStruts/index.jsp HTTP/1.1" 404 991
+127.0.0.1 - - [08/Apr/2014:17:00:57 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/Apr/2014:17:00:58 +0800] "GET /testStruts/index.jsp HTTP/1.1" 404 991
+127.0.0.1 - - [08/Apr/2014:17:03:23 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/Apr/2014:17:03:24 +0800] "GET /testStruts/index.jsp HTTP/1.1" 200 454
+0:0:0:0:0:0:0:1 - - [08/Apr/2014:17:03:32 +0800] "POST /testStruts/first HTTP/1.1" 200 302
+127.0.0.1 - - [08/Apr/2014:17:03:57 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/Apr/2014:17:03:58 +0800] "GET /ERP_XD/index.jsp HTTP/1.1" 200 454
+0:0:0:0:0:0:0:1 - - [08/Apr/2014:17:03:59 +0800] "POST /ERP_XD/first HTTP/1.1" 200 300
+0:0:0:0:0:0:0:1 - - [08/Apr/2014:17:04:10 +0800] "GET /ERP_XD/index.jsp HTTP/1.1" 200 454
+0:0:0:0:0:0:0:1 - - [08/Apr/2014:17:04:12 +0800] "POST /ERP_XD/first HTTP/1.1" 200 303
+0:0:0:0:0:0:0:1 - - [08/Apr/2014:17:48:48 +0800] "GET /ERP_XD/WEB-INF/classes/com/hibernate/test/TestHibernate.java HTTP/1.1" 404 949
+127.0.0.1 - - [08/Apr/2014:18:19:23 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [08/Apr/2014:18:19:24 +0800] "GET /ERP_XD/WEB-INF/classes/com/hibernate/test/TestHibernate.java HTTP/1.1" 404 949

@@ -1,0 +1,9 @@
+package com.test;
+
+import javax.security.auth.login.Configuration;
+
+public class Test1 {
+	public static void main(String[] args){
+		Configuration congif = 
+	}
+}

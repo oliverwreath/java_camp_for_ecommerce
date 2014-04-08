@@ -1,0 +1,27 @@
+package com.hibernate.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "tbl_Ruku_Detail")
+public class Sales {
+	@Id @GeneratedValue
+	@Column(name = "id")
+	private String id; 
+	@Column(name = "rkID")
+	private String rkID; 
+	@Column(name = "spID")
+	private String spID;
+	@Column(name = "dj")
+	private int dj;
+	@Column(name = "sl")
+	private int sl;
+	
+	public Sales(){}
+
+
+}

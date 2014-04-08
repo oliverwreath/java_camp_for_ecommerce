@@ -1,0 +1,25 @@
+package com.test;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.service.ServiceRegistry;
+
+import com.po.User;
+
+public class Test1 {
+	public static void main(String[] args){
+		Configuration conf = new Configuration();
+		conf.configure();
+		
+		ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().
+				applySettings(conf.getProperties()).build();
+		SessionFactory factory = conf.buildSessionFactory(serviceRegistry);
+		Session session = factory.openSession();
+		
+		User u = new User();
+		
+		session.close();
+	}
+}

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+ 
+<hibernate-configuration>
+ 
+    <session-factory>
+ 
+        <!-- Database connection settings 数据库的配置 -->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/hib</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">cccef373</property>
+ 
+        <!-- JDBC connection pool (use the built-in)  hibernate自带连接池，暂不使用 -->
+        <!-- <property name="connection.pool_size">1</property> -->
+ 
+        <!-- SQL dialect 数据库方言，这里我们才爱用MySQL-->
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+ 
+        <!-- Enable Hibernate's automatic session context management 新功能，暂不使用 -->
+        <!-- <property name="current_session_context_class">thread</property> -->
+ 
+        <!-- Disable the second-level cache  二级缓存，放置不管 -->
+        <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+ 
+        <!-- Echo all executed SQL to stdout  设置show_sql为true表示让hibernate将生成sql语句在控制台打印出来 -->
+        <property name="show_sql">true</property>
+ 
+        <!-- Drop and re-create the database schema on startup 是否让hibernate自动为我们创建表 -->
+        <property name="hbm2ddl.auto">create</property>
+ 
+        <!--<mapping resource="com/po/user.hbm.xml"/>  这里是将需要mapping的文件进行再次声明 -->
+        <mapping class="src/com/po/User"/> <!-- 这里是将需要mapping的文件进行再次声明 -->
+ 
+    </session-factory>
+ 
+</hibernate-configuration>

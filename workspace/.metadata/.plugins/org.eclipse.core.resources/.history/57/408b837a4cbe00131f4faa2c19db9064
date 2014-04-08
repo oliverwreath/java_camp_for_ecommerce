@@ -1,0 +1,17 @@
+package com.test;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class Test1 {
+	public static void main(String[] args){
+		Configuration conf = new Configuration();
+		conf.configure();
+		
+		SessionFactory factory = conf.buildSessionFactory();
+		Session session = factory.openSession();
+		
+		
+	}
+}

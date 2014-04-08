@@ -1,0 +1,40 @@
+package com.hibernate.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "tbl_Supplier")
+public class Goods {
+	@Id @GeneratedValue
+	@Column(name = "id")
+	private int id; 
+	@Column(name = "name")
+	private String name; 
+	@Column(name = "jc")
+	private String jc;
+	@Column(name = "cd")
+	private String cd;
+	@Column(name = "dw")
+	private String dw;
+	@Column(name = "gg")
+	private String gg;
+	@Column(name = "bz")
+	private String bz;
+	@Column(name = "ph")
+	private String ph;
+	@Column(name = "pzwh")
+	private String pzwh;
+	@Column(name = "memo")
+	private String memo;
+	@Column(name = "supplierName")
+	private String supplierName;
+	
+	
+
+	
+	
+}
